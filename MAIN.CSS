@@ -7,21 +7,174 @@
   --FONT: "Freeman", "sans-serif";
 }
 
+/* navbar start  */
 nav {
   background-color: #313030;
+  color: white;
   font-family: var(--FONT);
   padding: 8px 60px;
   display: flex;
   justify-content: space-between;
-}
-
-NAV UL {
-  list-style: none;
-  display: flex;
+  font-size: 20px;
+  text-transform: capitalize;
 }
 
 .btn {
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+NAV button {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-family: var(--FONT);
+  text-transform: capitalize;
+  border: 0;
+  box-shadow: 0;
+}
+
+.btn input {
+  height: 40px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0;
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+form button {
+  padding: 7px 20px;
+  background-color: gold;
+  margin-left: 10px;
+  border-radius: 8px;
+}
+
+/* home section star here  */
+
+.home {
+  height: 90vh;
+  display: flex;
+  background-color: grey;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.Banner-Text {
+  font-family: var(--FONT);
+  width: 50%;
+}
+
+.Banner-Text h1 {
+  font-size: 70px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  color: gold;
+}
+
+.Banner-Text p {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 35px;
+}
+
+.Banner-Text span {
+  margin-right: 10px;
+  width: 200px;
+  height: 150px;
+  padding: 10px 30px;
+  font-size: 1em;
+}
+
+.readMore {
+  color: white;
+  background-color: gold;
+}
+
+.contantUs {
+  background-color: white;
+  text-transform: capitalize;
+}
+
+.svg-girl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-girl img {
+  height: 420px;
+}
+
+/* section two  */
+
+.two {
+  height: 80vh;
+  padding: 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #313030;
+}
+
+.title {
+  font-family: var(--FONT);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title p {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: gold;
+}
+
+.title h2 {
+  font-size: 50px;
+  text-transform: capitalize;
+  color: whitesmoke;
+}
+
+.feature {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 35 0px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-family: var(--FONT);
+  margin: 0 20px;
+}
+.card svg {
+  color: gold;
+  width: 50px;
+  height: 50px;
+}
+
+.card h3 {
+  color: gold;
+  text-transform: capitalize;
+  font-size: 35px;
+}
+
+.card p {
+  color: white;
+  text-transform: capitalize;
+  font-size: 18px;
 }
